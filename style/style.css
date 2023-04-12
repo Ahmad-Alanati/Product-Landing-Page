@@ -1,0 +1,110 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    margin-bottom:10px;
+    position:fixed;
+    width: 100%;
+}
+main {
+    padding-top: 80px;
+}
+
+#header ul {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+}
+#header a {
+    padding: 25px 50px;
+}
+
+#header a:hover {
+    background-color: gray;
+}
+
+#header img {
+    width: 70px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#form h3 {
+    text-align: center;
+}
+
+#form input {
+    margin: 0 40%;
+}
+#form #submit {
+    margin:15px 45%;
+}
+#Trailer {
+    text-align: center;
+    margin: 40px;
+}
+
+#Price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border:1px solid black;
+    
+    text-align: center;
+    background-color: li;
+}
+.card h3 {
+    background-color: bisque;
+    margin: 0;
+    padding: 20px 0;
+}
+
+.card img {
+    display: block;
+}
+
+.card a {
+    display: block;
+    padding: 30px 30px;
+    margin: 20px 30px;
+    background-color: lightblue;
+}
+.card a:hover {
+    background-color: gray;
+}
+
+#Features {
+    padding: 0 20%;
+}
+
+@media only screen and (max-width: 600px){
+    header {
+        flex-direction: column;
+    }
+    #Price{
+        flex-direction: column;
+    }
+    #header ul{
+        flex-direction: column;
+    }
+    #header li {
+        margin: 30px;
+    }
+  }
+  
+  a {
+    color:black;
+    font-style: none;
+    text-decoration:none;
+}
